@@ -1,0 +1,236 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.1.63",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "chinese_screen_panels_a"
+    },
+    {
+      "mesh": 1,
+      "name": "chinese_screen_panels_b"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "chinese_screen_panels",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane.002",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Plane.005",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "name": "chinese_screen_panels_nor_gl",
+      "uri": "textures/chinese_screen_panels_nor_gl_1k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "chinese_screen_panels_diff",
+      "uri": "textures/chinese_screen_panels_diff_1k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "chinese_screen_panels_metal-chinese_screen_panels_rough",
+      "uri": "textures/chinese_screen_panels_arm_1k.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 530,
+      "max": [
+        0.6694478988647461,
+        1.6031262874603271,
+        0.06575354933738708
+      ],
+      "min": [
+        -0.0068213194608688354,
+        0,
+        -0.0068460553884506226
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 530,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 530,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 1260,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 446,
+      "max": [
+        0.006526444107294083,
+        1.6031262874603271,
+        0.056670356541872025
+      ],
+      "min": [
+        -0.6245198845863342,
+        0,
+        -0.3111376166343689
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 446,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 446,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 1092,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6360,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 6360,
+      "byteOffset": 6360,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4240,
+      "byteOffset": 12720,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2520,
+      "byteOffset": 16960,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5352,
+      "byteOffset": 19480,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5352,
+      "byteOffset": 24832,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3568,
+      "byteOffset": 30184,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2184,
+      "byteOffset": 33752,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 35936,
+      "uri": "chinese_screen_panels.bin"
+    }
+  ]
+}

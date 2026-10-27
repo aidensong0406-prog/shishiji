@@ -1,0 +1,160 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.1.63",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "chinese_console_table"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "chinese_console_table",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane.004",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "name": "chinese_console_table_nor_gl",
+      "uri": "textures/chinese_console_table_nor_gl_1k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "chinese_console_table_diff",
+      "uri": "textures/chinese_console_table_diff_1k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "chinese_console_table_rough",
+      "uri": "textures/chinese_console_table_arm_1k.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 13228,
+      "max": [
+        0.8607341051101685,
+        0.6604641675949097,
+        0.1697675883769989
+      ],
+      "min": [
+        -0.8588905930519104,
+        -0.0002779662609100342,
+        -0.1690254807472229
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 13228,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 13228,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 40944,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 158736,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 158736,
+      "byteOffset": 158736,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 105824,
+      "byteOffset": 317472,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 81888,
+      "byteOffset": 423296,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 505184,
+      "uri": "chinese_console_table.bin"
+    }
+  ]
+}

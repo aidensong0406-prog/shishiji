@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.local
+
+# local toolchain + verification artifacts
+.condaenv
+shot*.mjs
+
+# screenshots & reports from scripts
+artifacts/

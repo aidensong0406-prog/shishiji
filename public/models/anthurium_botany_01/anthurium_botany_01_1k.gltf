@@ -1,0 +1,584 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.1.63",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_materials_specular",
+    "KHR_materials_ior"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "anthurium_botany_01_a",
+      "translation": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "anthurium_botany_01_b"
+    },
+    {
+      "mesh": 2,
+      "name": "anthurium_botany_04_d",
+      "translation": [
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "anthurium_botany_01_c",
+      "translation": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "mesh": 4,
+      "name": "anthurium_botany_05_e",
+      "translation": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "mesh": 5,
+      "name": "anthurium_botany_06_f",
+      "translation": [
+        1,
+        0,
+        -1
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "alphaCutoff": 0.5,
+      "alphaMode": "MASK",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0.7100000381469727
+        },
+        "KHR_materials_ior": {
+          "ior": 1.4500000476837158
+        }
+      },
+      "name": "anthurium_botany_01",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane.016",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Plane.026",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Plane.032",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Plane.039",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Plane.019",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 16,
+            "NORMAL": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Plane.020",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "name": "anthurium_botany_01_nor_gl",
+      "uri": "textures/anthurium_botany_01_nor_gl_1k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "anthurium_botany_01_diff",
+      "uri": "textures/anthurium_botany_01_diff_1k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "anthurium_botany_01_rough",
+      "uri": "textures/anthurium_botany_01_arm_1k.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 9703,
+      "max": [
+        0.47622883319854736,
+        0.48934534192085266,
+        0.6517410278320312
+      ],
+      "min": [
+        -0.41998744010925293,
+        -0.010338996537029743,
+        -0.49014970660209656
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9703,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9703,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 47424,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 9568,
+      "max": [
+        0.3782065510749817,
+        0.46498557925224304,
+        0.26725661754608154
+      ],
+      "min": [
+        -0.3784608840942383,
+        -0.006753928028047085,
+        -0.3043639361858368
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 9568,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 9568,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 46632,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 6557,
+      "max": [
+        0.23280279338359833,
+        0.2962765395641327,
+        0.20473144948482513
+      ],
+      "min": [
+        -0.2481246441602707,
+        -0.004888966679573059,
+        -0.1460103541612625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 6557,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 6557,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 31080,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 5656,
+      "max": [
+        0.3760818541049957,
+        0.35177719593048096,
+        0.3182036578655243
+      ],
+      "min": [
+        -0.22483624517917633,
+        -0.006901795510202646,
+        -0.33919140696525574
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 5656,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 5656,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5123,
+      "count": 27216,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 4863,
+      "max": [
+        0.11674759536981583,
+        0.15503230690956116,
+        0.22259370982646942
+      ],
+      "min": [
+        -0.20311984419822693,
+        -0.003573094727471471,
+        -0.06753367930650711
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 4863,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 4863,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5123,
+      "count": 22992,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 5570,
+      "max": [
+        0.1801958978176117,
+        0.13518625497817993,
+        0.1751932054758072
+      ],
+      "min": [
+        -0.13303816318511963,
+        -0.0042652771808207035,
+        -0.10347197204828262
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 5570,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 5570,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5123,
+      "count": 26112,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 116436,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 116436,
+      "byteOffset": 116436,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 77624,
+      "byteOffset": 232872,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 94848,
+      "byteOffset": 310496,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 114816,
+      "byteOffset": 405344,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 114816,
+      "byteOffset": 520160,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 76544,
+      "byteOffset": 634976,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 93264,
+      "byteOffset": 711520,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 78684,
+      "byteOffset": 804784,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 78684,
+      "byteOffset": 883468,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 52456,
+      "byteOffset": 962152,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 62160,
+      "byteOffset": 1014608,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 67872,
+      "byteOffset": 1076768,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 67872,
+      "byteOffset": 1144640,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 45248,
+      "byteOffset": 1212512,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 54432,
+      "byteOffset": 1257760,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 58356,
+      "byteOffset": 1312192,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 58356,
+      "byteOffset": 1370548,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 38904,
+      "byteOffset": 1428904,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 45984,
+      "byteOffset": 1467808,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 66840,
+      "byteOffset": 1513792,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 66840,
+      "byteOffset": 1580632,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 44560,
+      "byteOffset": 1647472,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 52224,
+      "byteOffset": 1692032,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1744256,
+      "uri": "anthurium_botany_01.bin"
+    }
+  ]
+}

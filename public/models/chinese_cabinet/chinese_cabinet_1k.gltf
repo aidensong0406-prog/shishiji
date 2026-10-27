@@ -1,0 +1,489 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.1.63",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        4
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "chinese_cabinet_door_01",
+      "translation": [
+        -0.5466499924659729,
+        1.1135352849960327,
+        0.25662457942962646
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "chinese_cabinet_door_02",
+      "translation": [
+        0.5472373962402344,
+        1.1135352849960327,
+        0.25662457942962646
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "chinese_cabinet_drawer_01",
+      "translation": [
+        -0.2865453362464905,
+        1.3703293800354004,
+        -0.1661425232887268
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "chinese_cabinet_drawer_02",
+      "translation": [
+        0.2855112552642822,
+        1.3703293800354004,
+        -0.17241963744163513
+      ]
+    },
+    {
+      "children": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mesh": 4,
+      "name": "chinese_cabinet"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "chinese_cabinet",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.002",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Cube.003",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Cube.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Cube.004",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Cube.013",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 16,
+            "NORMAL": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "name": "chinese_cabinet_nor_gl",
+      "uri": "textures/chinese_cabinet_nor_gl_1k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "chinese_cabinet_diff",
+      "uri": "textures/chinese_cabinet_diff_1k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "chinese_cabinet_metal-chinese_cabinet_rough",
+      "uri": "textures/chinese_cabinet_arm_1k.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 689,
+      "max": [
+        0.5460681319236755,
+        0.13764801621437073,
+        0.03275818005204201
+      ],
+      "min": [
+        -0.004630344919860363,
+        -0.7967368960380554,
+        -0.033675964921712875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 689,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 689,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 1953,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 675,
+      "max": [
+        0.00475317845121026,
+        0.13771849870681763,
+        0.03151701018214226
+      ],
+      "min": [
+        -0.5474433898925781,
+        -0.7970734238624573,
+        -0.03384299948811531
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 675,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 675,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 1929,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 416,
+      "max": [
+        0.2589055597782135,
+        0.06322959065437317,
+        0.44021841883659363
+      ],
+      "min": [
+        -0.25911396741867065,
+        -0.06551972776651382,
+        -0.015512123703956604
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 416,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 416,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 1239,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 386,
+      "max": [
+        0.25943201780319214,
+        0.06328696012496948,
+        0.44021841883659363
+      ],
+      "min": [
+        -0.25911396741867065,
+        -0.06570170074701309,
+        -0.015512123703956604
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 386,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 386,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5123,
+      "count": 1173,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 10301,
+      "max": [
+        0.6295740604400635,
+        2.872056245803833,
+        0.2514992654323578
+      ],
+      "min": [
+        -0.6329219937324524,
+        -0.00004253143197274767,
+        -0.2558270990848541
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 10301,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 10301,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5123,
+      "count": 40710,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 8268,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8268,
+      "byteOffset": 8268,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5512,
+      "byteOffset": 16536,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3906,
+      "byteOffset": 22048,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8100,
+      "byteOffset": 25956,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8100,
+      "byteOffset": 34056,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5400,
+      "byteOffset": 42156,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3858,
+      "byteOffset": 47556,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4992,
+      "byteOffset": 51416,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4992,
+      "byteOffset": 56408,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3328,
+      "byteOffset": 61400,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2478,
+      "byteOffset": 64728,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4632,
+      "byteOffset": 67208,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4632,
+      "byteOffset": 71840,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3088,
+      "byteOffset": 76472,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2346,
+      "byteOffset": 79560,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 123612,
+      "byteOffset": 81908,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 123612,
+      "byteOffset": 205520,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 82408,
+      "byteOffset": 329132,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 81420,
+      "byteOffset": 411540,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 492960,
+      "uri": "chinese_cabinet.bin"
+    }
+  ]
+}
